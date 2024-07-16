@@ -1,17 +1,89 @@
 /* Font Family Work-Sans */
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* Shared Style */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li,
+a {
+  list-style: none;
+  text-decoration: none;
 }
 
-.work-sans-font> {
-    font-family: "Work Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight:400;
-    font-style:normal;
-  }
+header {
+  background: #fff4e7;
+  padding-right: 240px;
+  padding-left: 240px;
+  padding-bottom: 45px;
+  padding-top: 50px;
+  margin-bottom: 85px;
+}
+.work_sans_font {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding-right: 240px;
+  padding-left: 240px;
+}
+.nav_container h1 {
+  color: #131313;
+  text-align: center;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.nav_container p {
+  color: #424242;
+  text-align: center;
+  font-size: 1.12rem;
+  font-weight: 500;
+  line-height: 26px;
+}
+.nav_container ul {
+  display: flex;
+}
+.nav_container ul li {
+  margin-left: 70px;
+}
+.banner_container {
+  text-align: center;
+}
+.banner_container h1 {
+  margin-top: 102px;
+}
+.banner_container p {
+  color: #727272;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 25px;
+  margin-bottom: 32px;
+}
+.banner_container button {
+  padding: 20px 24px;
+  border-radius: 8px;
+  background: #ff900e;
+  border: none;
+  margin-bottom: 50px;
+}
+.banner_container button a {
+  color: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.banner_container img {
+  max-width: 1440px;
+}
